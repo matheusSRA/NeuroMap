@@ -56,3 +56,17 @@ android {
 flutter {
     source = "../.."
 }
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'dev.flutter.flutter-gradle-plugin'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 34
+    
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 34
+    }
+}
