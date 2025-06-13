@@ -1,0 +1,35 @@
+name: neuromap_app
+description: "NEUROMAP - Aplicativo para Inclusão Social de Pessoas com TEA"
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase dependencies
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.3
+
+  # Existing dependencies
+  dio: ^5.7.0
+  get_it: ^8.0.1
+  shared_preferences: ^2.3.2
+  flutter_secure_storage: ^9.2.2
+  get: ^4.6.6
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
