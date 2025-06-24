@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class AppColors {
   // Cores principais do NEUROMAP baseadas no Figma
   static const Color background = Color(0xFFFAFAFA);
